@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Locations | WatcHGoods</title>
+    <link rel="stylesheet" href="./../styles/locations.css" />
+    <script src="./../script/locations.js"></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="./../assets/logo.png" alt="Logo" class="logo-img" />
+      </div>
+      <nav>
+        <ul class="nav-bar">
+          <a href="./../pages/home.html"><li>Home</li></a>
+          <a href="./../pages/products.html"><li>Products</li></a>
+          <a href="./../pages/about_us.html"><li>About Us</li></a>
+          <a href="./../pages/locations.html"><li id="page_now">Locations</li></a>
+          <a href="./../pages/contact_us.html"><li>Contact Us</li></a>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+    <div class="text-intro">We have 3 locations spread all around Indonesia</div>
+    <div class="main-locations">
+      <div class="locations">
+        <h2>Our Centres</h2>
+        <br />
+        <div class="locations-map">
+          <div class="map-texts">
+            <button class="map-text" onclick="changeMap('./../assets/map-jakarta.png')">Jakarta</button>
+            <button class="map-text" onclick="changeMap('./../assets/map-medan.png')">Medan</button>
+            <button class="map-text" onclick="changeMap('./../assets/map-surabaya.png')">Surabaya</button>
+          </div>
+          <div class="map-picture">
+            <img src="./../assets/map-all.png" alt="Map" id="map-picture" />
+          </div>
+        </div>
+        <div class="locations-details">
+          <div class="location">
+            <img src="./../assets/watchstores-jakarta.jpeg" alt="" />
+            <h4>Jakarta Main Company</h4>
+            <h5>
+              Central Park Mall <br />
+              2nd Floor <br />
+              Indonesia
+            </h5>
+          </div>
+          <div class="location">
+            <img src="./../assets/watchstores-medan.jpg" alt="" />
+            <h4>Medan Branch</h4>
+            <h5>
+              Centre Point <br />
+              1st Floor <br />
+              Indonesia
+            </h5>
+          </div>
+          <div class="location">
+            <img src="./../assets/watchstores-surabaya.jpg" alt="" />
+            <h4>Surabaya Branch</h4>
+            <h5>
+              Pakuwon Mall <br />
+              3rd Floor <br />
+              Indonesia
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-left">
+        <div class="information">
+          <a href="./../pages/contact_us.html"><img src="./../assets/contact-logo.jpg" alt="Contact" /></a>
+          <p>Contact Us</p>
+        </div>
+        <div class="information">
+          <a href="./../pages/locations.html"><img src="./../assets/find-logo.jpg" alt="Find" /></a>
+          <p>Find Us</p>
+        </div>
+        <div class="copyright">
+          <p>&#9400; Copyright 2023 | Kent Alber Fredson</p>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="description">
+          <p>WatcHGoods</p>
+          <p>Central Park Jakarta</p>
+        </div>
+        <a href="./../pages/home.html"><img src="./../assets/logo.png" alt="Logo" /></a>
+      </div>
+    </footer>
+  </body>
+</html>
